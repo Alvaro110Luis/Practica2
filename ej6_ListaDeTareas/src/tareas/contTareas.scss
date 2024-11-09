@@ -1,0 +1,20 @@
+.contCT{
+    width: 40%;
+    margin: 10px;
+    .contTareas{
+        background-color: rgb(200,200,200);
+        border-radius: 20px;
+        padding: 15px;
+    }
+    button{
+        background-color: blue;
+        border: none;
+        color: white;
+        border-radius: 20px;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

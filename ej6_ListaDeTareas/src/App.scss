@@ -1,0 +1,11 @@
+.cont{
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 10px;
+  width: 700px;
+  margin: 5% auto;
+  .contBody{
+    display: flex;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,55 @@
+.contForm{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: rgba(255,255,255,.2);
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px black;
+  margin: 100px;
+  h1{
+    text-align: center;
+  }
+  label{
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  .contSpace{
+    position: relative;
+  }
+  input{
+    margin: 10px 0;
+    background-color: rgba(255,255,255,.1);
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 95%;
+    &:focus-visible{
+      outline: none;
+    }
+  }
+  .icono{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-size: 25px;
+  }
+  .boton{
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .error{
+    color: red;
+  }
+}
+body{
+  background-color: rgb(200, 200, 200);
+  font-family: Arial, Helvetica, sans-serif;
+}

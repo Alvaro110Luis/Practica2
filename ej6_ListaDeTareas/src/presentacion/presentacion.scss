@@ -1,0 +1,17 @@
+.contPre{
+    display: flex;
+    p{
+        margin: 0;
+    }
+    .iconUser{
+        font-size: 50px;
+        margin: 0 20px;
+    }
+    .bienvenido{
+        display: flex;
+        align-items: center;
+        svg{
+            font-size: 30px;
+        }
+    }
+}
